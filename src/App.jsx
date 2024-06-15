@@ -33,6 +33,7 @@ const App = () => {
       <Card className = "m-auto w-[30rem] mt-[3rem] bg-stone-800 border-none p-3 shadow-lg">
         <div className=' flex items-center gap-3'>
           <Input 
+            type = "text"
             value = {input}
             onChange = {(e) => setInput(e.target.value)}
             placeholder = "Search for a word..."
